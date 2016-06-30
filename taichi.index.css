@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: YuGothic,"游ゴシック","メイリオ",Meirio;
+    background-color: white;
+    font-size: 14px;
+}
+
+
+header {
+  background-image: url("background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom:350px;
+}
+
+nav {
+    margin:0 0 30px 0;
+    padding:10px 0;
+    text-align: center;
+    background:#fff;
+}
+
+nav ul li {
+    margin:0 20px;
+    display: inline-block;
+}
+
+nav ul li a {
+  padding: 15px 10px;
+  text-decoration: none;
+  color: #999;
+  font-weight: bold;
+}
+nav ul li a.selected {
+  color: #000;
+}
+
+
+
+section {
+  padding: 30px 20px;
+}
+
+section h3 {
+  padding: 10px 0 20px 0;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+
+
+footer {
+  padding: 0 0;
+  font-size: 93%;
+  text-align: center;
+  background-color: white;
+  color: #666;
+}
